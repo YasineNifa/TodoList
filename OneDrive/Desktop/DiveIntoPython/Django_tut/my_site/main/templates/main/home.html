@@ -1,0 +1,22 @@
+{% extends 'main/base.html' %}
+{% block title %}
+Home
+{%endblock%}
+{% block content %}
+<h1>
+	Home Page
+	<h6>
+	<ul>
+		<li>
+			 My username is <B>{{user.first_name}}</B></p>
+		</li>
+		<li>
+			To contact me, use my email <B>{{user.email}}</B>
+		</li>
+		
+	</ul>
+	</h6>
+		
+	
+</h1>
+{% endblock %}
