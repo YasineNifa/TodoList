@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import InfoIcon from '@material-ui/icons/Info';
 import db from '../firebase'
 import ChatInput from './ChatInput'
+import ChatMessage from './ChatMessage'
 
 function Chat() {
     
@@ -29,7 +30,7 @@ function Chat() {
             </Header>
 
             <MessageContainer>
-                
+                <ChatMessage/>
             </MessageContainer>
             <ChatInput/>
 

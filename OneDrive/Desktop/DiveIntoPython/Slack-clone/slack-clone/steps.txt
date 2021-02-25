@@ -65,3 +65,7 @@ useeffect only when page load
 min-content take what it needs
 form why
 when we hit enter, the form will call a function and submit what we type directly
+
+padding : 8px 20px vertical horizontaly
+
+flex-direction : column; : to make the direction of the flex column
