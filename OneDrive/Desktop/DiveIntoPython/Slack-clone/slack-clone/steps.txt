@@ -1,0 +1,67 @@
+react-router-dom : to go from page to page routing btw diffferents pages
+css : cascade style sheet
+npm install styled-components
+div is a container
+container is used to style everything inside of it
+100vh = 100 vertical Height of the whole browser window
+a big difference btw vh and %
+the full winfow use vh, for only what u need use %
+inside the container , we define the height of the main and the header
+auto fill out the rest of it
+display grid :  because we divide our app into two row the header and the main
+grid-template-rows : height1 height2
+height1 for the first row header 
+height2 for the main  
+
+<div style={{background:'blue'}}>
+            Sidebar
+</div>
+the style porchain of the code
+
+ctr+slash to comment
+
+npm install @material-ui/core
+npm install @material-ui/icons
+
+flexbox documentation
+display:flex : order things inside of the div
+allows us to order things layout
+
+back ticks
+justify-content:space-between; space between all components in div
+box-shadow:inset 0 0 0 1px rgb(104 74 104); shadow in box
+styled component will target any input any tag inside html 
+
+input{
+        background-color:transparent;
+        border:none;
+    }
+
+pour eliminer le cadre sur input quand on clique sur input
+input:focus{
+        outline:none;
+    }
+
+padding : space from inside the div
+margin : pushing things from outside
+
+To make the image fit the container
+img{
+        width:100%;
+    }
+
+center a component inside a container :
+absolute : don t change the place whatever it happens
+
+z-index:10; : to show the box-shadow
+align-item to center it inside the div
+
+border-bottom : 1px solid #532753 TO ADD A BORDER
+
+collection like a way to store the data like table
+
+
+useeffect only when page load
+min-content take what it needs
+form why
+when we hit enter, the form will call a function and submit what we type directly
